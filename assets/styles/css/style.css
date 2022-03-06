@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+form {
+  background: -webkit-gradient(linear, left top, left bottom, from(#b0c8e0), to(#758595));
+  background: linear-gradient(#b0c8e0, #758595);
+  color: #324860;
+  text-shadow: 1px 1px 0 #b0c8e0;
+  font-weight: bold;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 2%;
+  border-radius: 1em;
+  margin: 2% auto;
+}
+
+form h1 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+form input {
+  background: #e5eef7;
+  border: none;
+  font-size: 1.25em;
+}
+
+form input[type="number"] {
+  display: block;
+  margin: 1% 0 5% 0;
+}
+
+form input[type="submit"] {
+  background: #98601a;
+  color: #ddbb8e;
+  padding: 0.5em 1em;
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+form input[type="submit"]:active {
+  background: #ae6d1e;
+}
+
+form .radio-wrapper {
+  color: #000;
+  text-shadow: none;
+  margin: 5% 0 3% 0;
+}
+
+form select {
+  background: #e5eef7;
+  display: block;
+  border-radius: 0.5em;
+  padding: 0.5%;
+  margin: 2% 0 10% 0;
+}
+
+form .submit-wrapper {
+  text-align: end;
+}
+
+form table {
+  background: #fff;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 5% 0;
+}
+
+form table table, form table tr, form table th, form table td {
+  border: 1px solid #000;
+}
+
+form table thead {
+  background: #3c83b1;
+  text-shadow: none;
+}
+
+form table th, form table td {
+  padding: 1%;
+}
+
+form table th {
+  color: white;
+  text-align: start;
+}
+
+form .info-text {
+  color: #000;
+  text-shadow: none;
+}
+/*# sourceMappingURL=style.css.map */
